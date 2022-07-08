@@ -11,9 +11,9 @@
 <body>
 	
 	<form action="${linkEntradaServelet}" method="post">
-		Nome: <input type="text" name="nome"/>
-		Data Abertura: <input type="text" name="data"/>
-		<input type="hidden" name="acao" value="NovaEmpresa"/>
+		Login: <input type="text" name="login"/> <br/><br/>
+		Senha: <input type="password" name="senha"/> <br/>
+		<input type="hidden" name="acao" value="Login"/> <br/><br/>
 		<input type="submit" />
 	</form>
 </body>
